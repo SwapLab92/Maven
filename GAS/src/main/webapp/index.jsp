@@ -1,5 +1,41 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy Clone Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-<h2>Hello Guys this is Devops Maven Git Jenkins Demo with Poll SCM trigger </h2>
+    <div class="landing-container">
+        <!-- Left Section: Content -->
+        <div class="content-left">
+            <header>
+                <img src="swiggy-logo.png" alt="Swiggy" class="logo">
+                <nav>
+                    <a href="#" class="login">Login</a>
+                    <a href="#" class="signup">Sign Up</a>
+                </nav>
+            </header>
+
+            <main class="hero">
+                <h1>Hungry?</h1>
+                <p>Order food from favourite restaurants near you.</p>
+                <div class="search-container">
+                    <input type="text" placeholder="Enter your delivery location">
+                    <button class="find-food">FIND FOOD</button>
+                </div>
+                <div class="popular-cities">
+                    <p>POPULAR CITIES IN INDIA</p>
+                    <span>Ahmedabad, Bangalore, Chennai, Delhi, Gurgaon, Hyderabad...</span>
+                </div>
+            </main>
+        </div>
+
+        <!-- Right Section: Banner Image -->
+        <div class="content-right">
+            <img src="food-banner.jpg" alt="Delicious Food">
+        </div>
+    </div>
 </body>
 </html>
