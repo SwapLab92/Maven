@@ -55,7 +55,10 @@ elif choice == "4":
     os.system("date")
 
 elif choice == "5":
+ os.system("df -h")
 
+else:
+    print("Invalid Choice")
 ===========================================================================
 #copy file
 import shutil
@@ -66,10 +69,7 @@ destination = input("Enter destination file: ")
 shutil.copy(source, destination)
 
 print("File copied successfully.")
-    os.system("df -h")
-
-else:
-    print("Invalid Choice")
+   
 ========================================================================
 # move file
 import shutil
