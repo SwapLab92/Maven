@@ -10,10 +10,21 @@ else:
 
 
 ===================================================================================
-# create Directory
+# create file
 filename = input("Enter file name: ")
 
 with open(filename, "w") as file:
     file.write("Welcome to Python on Linux")
 
 print("File created successfully.")
+
+===========================================================================
+#Rename file
+import os
+
+old = input("Old Filename: ")
+new = input("New Filename: ")
+
+os.rename(old, new)
+
+print("File Renamed Successfully")
