@@ -28,3 +28,34 @@ new = input("New Filename: ")
 os.rename(old, new)
 
 print("File Renamed Successfully")
+
+============================================================================================
+
+import os
+
+print("===== Linux Menu =====")
+print("1. Current User")
+print("2. Hostname")
+print("3. Current Directory")
+print("4. Date")
+print("5. Disk Usage")
+
+choice = input("Enter your choice: ")
+
+if choice == "1":
+    os.system("whoami")
+
+elif choice == "2":
+    os.system("hostname")
+
+elif choice == "3":
+    os.system("pwd")
+
+elif choice == "4":
+    os.system("date")
+
+elif choice == "5":
+    os.system("df -h")
+
+else:
+    print("Invalid Choice")
