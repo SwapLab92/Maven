@@ -1,3 +1,4 @@
+# Find Directory
 import os
 
 directory = input("Enter directory name: ")
@@ -9,3 +10,10 @@ else:
 
 
 ===================================================================================
+# create Directory
+filename = input("Enter file name: ")
+
+with open(filename, "w") as file:
+    file.write("Welcome to Python on Linux")
+
+print("File created successfully.")
