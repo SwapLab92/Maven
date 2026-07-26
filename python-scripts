@@ -57,6 +57,7 @@ elif choice == "4":
 elif choice == "5":
 
 ===========================================================================
+#copy file
 import shutil
 
 source = input("Enter source file: ")
@@ -69,3 +70,13 @@ print("File copied successfully.")
 
 else:
     print("Invalid Choice")
+========================================================================
+# move file
+import shutil
+
+source = input("Enter source file: ")
+destination = input("Enter destination path: ")
+
+shutil.move(source, destination)
+
+print("File moved successfully.")
