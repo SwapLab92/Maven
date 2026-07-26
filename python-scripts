@@ -1,0 +1,11 @@
+import os
+
+directory = input("Enter directory name: ")
+
+if os.path.isdir(directory):
+    print("Directory exists.")
+else:
+    print("Directory does not exist.")
+
+
+===================================================================================
